@@ -1,0 +1,65 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+table{
+  border-collapse: collapse;
+}
+thead{
+  background-color: rgb(32, 31, 31);
+  color: white;
+}
+td,tr{
+  border: 1px solid black;
+  padding: 10px;
+}
+button{
+  border:none;
+  padding: 3px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+input{
+  height:30px;
+  font-size: 20px;
+}
+
+.delete-button{
+  background-color: rgb(158, 58, 58);
+  color: white;
+  transition: background-color 0.25s;
+}
+
+.delete-button:hover{
+  background-color: rgb(219, 81, 81);
+}
+
+.update-button{
+  background-color: rgb(66, 137, 56);
+  color: white;
+  transition: background-color 0.25s;
+}
+
+.update-button:hover{
+  background-color: rgb(113, 201, 101);
+}
+
+.add-employee-button{
+  padding: 10px;
+  font-size: medium;
+  transition: background-color 0.25s;
+}
+
+.add-employee-button:hover{
+  background-color: rgb(66, 137, 56);
+  color: white;
+}
+
+a:hover{
+  color: white;
+}
+
